@@ -6,6 +6,9 @@
 
 /*************UTILITY CLASSES**************/
 
+.text-decoration-none{
+  text-decoration: none;
+}
 .rectangle {
   width: 196px;
   height: 41px;
@@ -93,7 +96,9 @@
 .text-secondary {
   color: #192ad6;
 }
-
+.text-center{
+  text-align: center;
+}
 .text-white {
   color: #fff;
 }
@@ -111,6 +116,9 @@
 }
 .p-2 {
   padding: 10px;
+}
+.pr-2{
+  padding-right: 10px;
 }
 .py-2 {
   padding-top: 10px;
@@ -220,7 +228,9 @@
 .h-192 {
   height: 192px;
 }
-
+.mw-50{
+  min-width: 50%;
+}
 /*************TYPOGRAPHY CLASSES**************/
 .text-lg {
   /* font-family: Inter; */
@@ -341,4 +351,12 @@ footer{
   bottom: 0px;
   left: 0;
   right: 0;
+}
+
+
+.login-pic{
+  background-image: url('./assets/img/2022_Sampiyon_Basin_Toplantisi\ 1.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
