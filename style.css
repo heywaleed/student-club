@@ -240,6 +240,9 @@
   letter-spacing: 0em;
   text-align: left;
 }
+.text-red{
+  color: red;
+}
 .text-sm-i {
   /* font-family: Inter; */
   font-size: 12px;
