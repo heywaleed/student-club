@@ -1,117 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style.css" />
 
     <title>Profile Page</title>
-</head>
-<body>
-    <div class="container-fluid">
-        <header class="container-fluid">
-            <div class="d-flex p-1 bg-primary text-white justify-content-between">
-                <p class="pl-5">
-                    Welcome to the students club websites
-                </p>
-                <p class="w-25">
-                    ENG
-                </p>
+  </head>
+  <body>
+    <div class="container-full-width">
+        <header class="container-full-width">
+            <div class="bg-primary">
+              <div
+                class="d-flex p-1 container-fluid text-white justify-content-between"
+              >
+                <p class="pl-5">Welcome to the students club websites</p>
+                <p class="w-25">ENG</p>
+              </div>
             </div>
-            <nav class="d-flex align-items-center">
-                <div class="logo">
-                    <img src="./assets/img/med1.png" alt="logo">
-                </div>
-                <div class="navbar">
-                    <ul>
-                        <li>
-                            <a href="#" class="nav-link">Home</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link">Clubs</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link">News</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link">Events</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link">Profile</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link">Contact us</a>
-                        </li>
-                        <li>
-                            <a href="#" class="nav-link">Message</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="searchbar">
-                    <form action="">
-                        <input type="text" name="search_text" id="" />
-                        <button type="submit">  
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                    </form>
-                </div>
-                <div class="logout pl-5">
-                    <a href="#" class="nav-link">
-                        Log out
-                    </a>
-                </div>
+            <nav class="d-flex mx-auto container-fluid align-items-center">
+              <div class="logo">
+                <img src="./assets/img/med1.png" alt="logo" />
+              </div>
+              <div class="navbar">
+                <ul>
+                  <li>
+                    <a href="./home.html" class="nav-link">Home</a>
+                  </li>
+                  <li>
+                    <a href="./clubs.html" class="nav-link">Clubs</a>
+                  </li>
+                  <li>
+                    <a href="./news.html" class="nav-link">News</a>
+                  </li>
+                  <li>
+                    <a href="./Events.html" class="nav-link">Events</a>
+                  </li>
+                  <li class="dropbtn">
+                    <a href="" class="nav-link">Profile</a>
+                    <div class="dropdown bg-primary">
+                        <ul>
+                            <li><a href="./profile.html" class="text-white">profile</a></li>
+                            <li><a href="./profile 2.html" class="text-white">profile 2</a></li>
+                            <li><a href="./clubs 2.html" class="text-white">my clubs</a></li>
+                            <li><a href="#" class="text-white">my management</a></li>
+                        </ul>
+                    </div>
+    
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="#" class="nav-link">Message</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="searchbar">
+                <form action="">
+                  <input type="text" name="search_text" id="" />
+                  <button type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+              <div class="logout pl-5">
+                <a href="#" class="nav-link"> Log out </a>
+              </div>
             </nav>
-        </header>
+          </header>
+      <div class="container-fluid mb-100px">
         <div class="divider"></div>
         <section>
-            <div class="container d-flex py-4 justify-content-around">
-                <div class="d-flex flex-column">
-                    <div class="d-flex flex-column align-items-center">
-                        <div class="w-376 h-192">
-                            <img src="./assets/img/gd_dsc_lockup_vertical_color-(2)_aQX57E5 1.png" alt="">
-                        </div>
-                        <a href="#" class="nav-link py-2">join us</a>
-                    </div>
-                    <div class="d-flex flex-column align-items-center">
-                        <div class="w-376 bg-grey d-flex justify-content-center align-items-center">
-                            <img src="./assets/img/1548007871550 1.png" class="mx-auto" alt="">
-                        </div>
-                        <a href="#" class="nav-link py-2">join us</a>
-                    </div>
+          <div class="container d-flex py-4 justify-content-around">
+            <div class="d-flex flex-column">
+              <div class="d-flex flex-column align-items-center">
+                <div class="w-376 h-192">
+                  <img
+                    src="./assets/img/gd_dsc_lockup_vertical_color-(2)_aQX57E5 1.png"
+                    alt=""
+                  />
                 </div>
-                    
-                <div class="d-flex flex-column align-items-center">
-                    <div class="w-376 h-192">
-                        <img src="./assets/img/1608656762085 1.png" alt="">
-                    </div>
-                    <a href="#" class="nav-link py-2">join us</a>
+                <a href="#" class="nav-link py-2">join us</a>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <div
+                  class="w-376 bg-grey d-flex justify-content-center align-items-center"
+                >
+                  <img
+                    src="./assets/img/1548007871550 1.png"
+                    class="mx-auto"
+                    alt=""
+                  />
                 </div>
+                <a href="#" class="nav-link py-2">join us</a>
+              </div>
             </div>
 
+            <div class="d-flex flex-column align-items-center">
+              <div class="w-376 h-192">
+                <img src="./assets/img/1608656762085 1.png" alt="" />
+              </div>
+              <a href="#" class="nav-link py-2">join us</a>
+            </div>
+          </div>
         </section>
-        <footer class="bg-secondary d-flex align-items-end justify-content-between text-sm-i">
-            <div class="d-flex justify-content-evenly w-75">
-                <div class="d-flex flex-column pb-1">
-                    <p class="text-white pb-3">contact us</p>
-                    <p class="text-white">phone:053xxxx</p>
-                    <p class="text-white">email:asd@medipol.com</p>
-                    <p class="text-white">fax:0567xxxx</p>
-                </div>
-                <div class="d-flex flex-column pb-1">
-                    <p class="text-white pb-3">follow us</p>
-                    <p class="text-white">instagram: @mediclub</p>
-                    <p class="text-white">facebook: mediclub</p>
-                    <p class="text-white">twitter: @mediclub</p>
-                </div>
+      </div>
 
+      <footer class="bg-secondary">
+        <div
+          class="container-fluid d-flex align-items-end justify-content-between"
+        >
+          <div class="d-flex justify-content-evenly w-75">
+            <div class="d-flex flex-column">
+              <p class="text-white pb-3">contact us</p>
+              <p class="text-white">phone:053xxxx</p>
+              <p class="text-white">email:asd@medipol.com</p>
+              <p class="text-white">fax:0567xxxx</p>
             </div>
-            <div class="footer-img">
-                <img src="./assets/img/istanbul-medipol-universitesi-logo-768x232 1.png" alt="">
+            <div class="d-flex flex-column">
+              <p class="text-white pb-3">follow us</p>
+              <p class="text-white">instagram: @mediclub</p>
+              <p class="text-white">facebook: mediclub</p>
+              <p class="text-white">twitter: @mediclub</p>
             </div>
-        </footer>
-
+          </div>
+          <div class="footer-image">
+            <img
+              src="./assets/img/istanbul-medipol-universitesi-logo-768x232 1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
