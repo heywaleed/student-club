@@ -3,7 +3,13 @@
   margin: 0;
   padding: 0;
 }
-
+body > .aa{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+}
 /*************UTILITY CLASSES**************/
 
 .text-decoration-none{
@@ -350,7 +356,7 @@
   mix-blend-mode: multiply;
 }
 footer{
-  position: fixed;
+  /* position: fixed; */
   bottom: 0px;
   left: 0;
   right: 0;
